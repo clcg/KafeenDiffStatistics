@@ -20,7 +20,7 @@ echo $output_header
 
 # Print data
 #bcftools query -r 13:20761603-20767114 -f "$vcf_info_fields\n" $infile \
-/Users/AndreasMac/Documents/bcftools/bcftools query -f "$vcf_info_fields\n" $infile \
+/Your/Path/To/bcftools query -f "$vcf_info_fields\n" $infile \
   | awk '
         BEGIN{
           FS="\t"
